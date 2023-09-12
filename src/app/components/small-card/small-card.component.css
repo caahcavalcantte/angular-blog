@@ -1,7 +1,28 @@
-.container_small_card{
-  width: 100%;
+.container_small-card{
+  width: 700px;
+  margin-bottom: 5px;
+
+  display: flex;
+  flex-direction: row;
 }
 
-.small_card_photo{
-  
+.container_small_card_content{
+  display: flex;
+  flex-direction: row;
+}
+
+.small_card_photo > img{
+  width: 200px;
+  min-width: 200px;
+  margin-right: 20px;
+}
+
+.small_card_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_small_card_separator{
+  margin-bottom: 10px;
 }
