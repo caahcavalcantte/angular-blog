@@ -23,4 +23,5 @@
 .big_card_photo > img {
   width: 100%;
   min-width: 400px;
+  border-radius: 30px;
 }

@@ -12,7 +12,9 @@ export class BigCardComponent implements OnInit {
   @Input()
   cardTitle: string = ""
   @Input()
-  cardDescripiton:string =""
+  cardDescripiton:string ="Max, o cão sábio: Uma história de lealdade e sabedoria canina que tocou corações e inspirou a todos a viverem melhor."
+  @Input()
+  Id:string="0"
 
 constructor(){}
 
